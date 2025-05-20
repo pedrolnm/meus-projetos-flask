@@ -6,9 +6,19 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 
 ---
 
+
 ## 📁 Exercícios disponíveis
 
 - **Exercício 1** – Site de boas-vindas com Flask
+- **Exercício 2** – Formulário de Saudação com Flask
+
+### Exercício 1: Site de Boas-Vindas
+- **Objetivo:** Criar uma página simples de boas-vindas com Flask.
+- **Arquivos criados:** `app.py`, `templates/boasvindas.html`.
+
+### Exercício 2: Formulário de Saudação
+- **Objetivo:** Criar um formulário onde o usuário digita seu nome e a aplicação exibe uma saudação personalizada.
+- **Arquivos criados:** `app.py`, `templates/form.html`, `templates/saudacao.html`.
 
 ---
 
@@ -42,9 +52,11 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 
 ## 📌 Objetivo
 
-Praticar a estruturação de aplicações Flask com uso de:
-- Roteamento básico
-- Templates HTML
-- Organização de projetos
+O objetivo deste repositório é aprender e praticar os conceitos fundamentais do Flask, como:
+
+- **Roteamento básico**: Entender como o Flask manipula rotas para exibir diferentes páginas.
+- **Templates HTML**: Como utilizar o mecanismo de templates do Flask para gerar páginas dinâmicas.
+- **Formulários e requisições POST**: Como criar formulários simples e tratar as requisições POST para interagir com o usuário.
+- **Estruturação de projetos**: Organizar o código e os arquivos de maneira escalável, com o uso de templates e rotas.
 
 ---
