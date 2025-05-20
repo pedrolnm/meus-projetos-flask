@@ -1,4 +1,4 @@
-# Estudos Flask 🚀
+# Estudos Flask 
 
 Este repositório reúne meus estudos e pequenos projetos utilizando o microframework [Flask](https://flask.palletsprojects.com/), com foco em aprendizado prático e progressivo.
 
@@ -9,8 +9,12 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 
 ## 📁 Exercícios disponíveis
 
-- **Exercício 1** – Site de boas-vindas com Flask
-- **Exercício 2** – Formulário de Saudação com Flask
+- **Exercício 1** – Site de boas-vindas com Flask  
+- **Exercício 2** – Formulário de Saudação com Flask  
+- **Exercício 3** – Formulário com Nome e Idade  
+- **Exercício 4** – Calculadora de IMC com Flask
+
+---
 
 ### Exercício 1: Site de Boas-Vindas
 - **Objetivo:** Criar uma página simples de boas-vindas com Flask.
@@ -20,7 +24,16 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 - **Objetivo:** Criar um formulário onde o usuário digita seu nome e a aplicação exibe uma saudação personalizada.
 - **Arquivos criados:** `app.py`, `templates/form.html`, `templates/saudacao.html`.
 
+### Exercício 3: Formulário com Nome e Idade
+- **Objetivo:** Estender o formulário anterior para incluir o campo de idade, exibindo uma saudação com nome e idade do usuário.
+- **Arquivos criados:** `app.py`, `templates/form.html`, `templates/saudacao.html`.
+
+### Exercício 4: Calculadora de IMC com Flask
+- **Objetivo:** Criar um formulário que recebe o peso e altura do usuário, calcula o IMC e mostra a classificação (ex: peso normal, sobrepeso, etc.).
+- **Arquivos criados:** `app.py`, `templates/form.html`, `templates/imc.html`.
+
 ---
+
 
 ## ▶️ Como executar um exercício
 
