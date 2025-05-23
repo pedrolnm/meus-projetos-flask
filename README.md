@@ -12,7 +12,9 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 - **Exercício 1** – Site de boas-vindas com Flask  
 - **Exercício 2** – Formulário de Saudação com Flask  
 - **Exercício 3** – Formulário com Nome e Idade  
-- **Exercício 4** – Calculadora de IMC com Flask
+- **Exercício 4** – Calculadora de IMC com Flask  
+- **Exercício 5** – Conversor de Temperatura (Celsius para Fahrenheit)  
+- **Exercício 6** – Lista de Tarefas simples com Flask
 
 ---
 
@@ -31,6 +33,14 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 ### Exercício 4: Calculadora de IMC com Flask
 - **Objetivo:** Criar um formulário que recebe o peso e altura do usuário, calcula o IMC e mostra a classificação (ex: peso normal, sobrepeso, etc.).
 - **Arquivos criados:** `app.py`, `templates/form.html`, `templates/imc.html`.
+
+### Exercício 5: Conversor de Temperatura (Celsius para Fahrenheit)
+- **Objetivo:** Criar um formulário que recebe uma temperatura em Celsius e converte para Fahrenheit, exibindo o resultado.
+- **Arquivos criados:** `conversor-temperatura/app.py`, `conversor-temperatura/templates/conversor.html`.
+
+### Exercício 6: Lista de Tarefas simples com Flask
+- **Objetivo:** Criar uma aplicação web simples para adicionar, listar e remover tarefas.
+- **Arquivos criados:** `lista-tarefas/app.py`, `lista-tarefas/templates/index.html`.
 
 ---
 
