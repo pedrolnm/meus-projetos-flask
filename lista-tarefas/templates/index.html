@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Bem-vindo a sua lista de tarefas!</h1>
+    <ul>
+       {% for tarefa in tarefas %}
+           <li>
+               {{ tarefa }}
+               <form action="/excluir/{{ loop.index0 }}" method="post" style="display:inline;">
+                   <button type="submit">Excluir</button>
+               </form>
+           </li>
+           <br>
+       {% endfor %}
+    </ul>
+<br><br><br><br>
+    <form action="/" method="post">
+        <input type="text" id="tarefa" name="tarefa" placeholder="Nova Tarefa" required>
+        <button type="submit">Adicionar</button>
+    </form>
+
+</body>
+</html>
