@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de senhas</title>
+</head>
+<body>
+    <h1>Gerador de senhas aleatórias</h1>
+    <h2>Digite quantos caracteres a senha deve ter: </h2>
+    <form action="/" method="post">
+        <input type="number" name="tamanho" min="4" max="40" required>
+            <button type="submit">Gerar</button>
+    </form>
+    <br><br>
+   {% if senha %}
+       <label for="senha">Senha gerada:</label>
+       <input type="text" id="senha" value="{{ senha }}" readonly>
+   {% endif %}
+
+    {% if erro %}
+        <h4>{{ erro }}</h4>
+    {% endif %}
+</body>
+</html>

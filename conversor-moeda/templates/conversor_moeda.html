@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <h1>Conversor de Moedas:</h1>
+    <br>
+    <h2>Digite o valor em reais:</h2>
+    <form action="/" method="post">
+        <label for="valor">R$</label>
+            <input type="number" id="valor" name="valor" step="0.01" placeholder="Digite o valor em Reais" required>
+            <select name="moeda">
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="iene">Iene</option>
+            </select>
+            <button type="submit">Enviar</button>
+    </form>
+      <br><br>
+
+    {% if valor is not none and moeda %}
+       {% if moeda == 'dolar' %}
+          <h2>O valor em Dólar é: {{ valor | round(2) }}</h2>
+       {%  elif moeda == 'euro' %}
+          <h2>O valor em Euros é: {{ valor | round(2) }}</h2>
+       {% elif moeda == 'iene' %}
+          <h2>O valor em Ienes é: {{ valor | round(2) }}</h2>
+       {% endif %}
+    {% endif %}
+
+</body>
+</html>
