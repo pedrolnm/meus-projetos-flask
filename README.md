@@ -7,14 +7,16 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 ---
 
 
-## 📁 Exercícios disponíveis
+## Exercícios disponíveis
 
 - **Exercício 1** – Site de boas-vindas com Flask  
 - **Exercício 2** – Formulário de Saudação com Flask  
 - **Exercício 3** – Formulário com Nome e Idade  
 - **Exercício 4** – Calculadora de IMC com Flask  
 - **Exercício 5** – Conversor de Temperatura (Celsius para Fahrenheit)  
-- **Exercício 6** – Lista de Tarefas simples com Flask
+- **Exercício 6** – Lista de Tarefas simples com Flask  
+- **Exercício 7** – Projeto de Login Simples com Flask  
+- **Exercício 8** – Gerador de Senhas Seguras com Flask
 
 ---
 
@@ -42,10 +44,18 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 - **Objetivo:** Criar uma aplicação web simples para adicionar, listar e remover tarefas.
 - **Arquivos criados:** `lista-tarefas/app.py`, `lista-tarefas/templates/index.html`.
 
+### Exercício 7: Projeto de Login Simples com Flask
+- **Objetivo:** Criar um sistema de login com cadastro e autenticação de usuários, usando Flask, session e mensagens flash.
+- **Arquivos criados:** `app/__init__.py`, `app/routes.py`, `app/templates/cadastro.html`, `app/templates/erro.html`, `app/templates/home.html`, `app/templates/login.html`, `app/templates/mensagens_flash.html`, `run.py`.
+
+### Exercício 8: Gerador de Senhas Seguras com Flask
+- **Objetivo:** Criar um gerador de senhas seguras aleatórias com Flask, permitindo que o usuário defina o tamanho da senha (de 4 a 40 caracteres).
+- **Arquivos criados:** `app.py`, `templates/gerador.html`.
+
 ---
 
 
-## ▶️ Como executar um exercício
+##  Como executar um exercício
 
 1. Navegue até a pasta do exercício desejado:
    ```bash
@@ -73,7 +83,7 @@ Cada exercício está em uma pasta separada com seu próprio código e templates
 
 ---
 
-## 📌 Objetivo
+##  Objetivo
 
 O objetivo deste repositório é aprender e praticar os conceitos fundamentais do Flask, como:
 
