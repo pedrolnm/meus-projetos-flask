@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form action="/autenticar" method="post">
+        <input type="text" id="usuario" name="usuario" placeholder="usuario" required >
+        <input type="password" id="senha" name="senha" placeholder="senha" required>
+            <button type="submit">Enviar</button>
+    </form>
+
+    {% include 'mensagens_flash.html' %}
+
+<a href="/cadastro">Cadastre-se aqui!</a>
+
+</body>
+</html>
